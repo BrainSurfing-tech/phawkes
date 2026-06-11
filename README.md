@@ -99,7 +99,7 @@ fits["crisis"].branching_ratio()   # e.g. 0.85 — near-critical
 - **Pierre Samson** ([@darw007d](https://github.com/darw007d)) — idea, use-case, design decisions
 - **Claude Opus** (Anthropic) — implementation and tests
 
-Originally motivated by the [OMEGA Swarm](https://github.com/darw007d/hedge-fund-mcp) hedge-fund project, where regime-stratified Hawkes calibration replaces a heuristic `5% per cycle` edge-decay in a live contagion network. The library is deliberately agnostic of that use-case.
+Originally built for a quantitative-finance application — regime-stratified Hawkes calibration replacing a heuristic edge-decay in a contagion network — but the library is deliberately agnostic of that use-case.
 
 ## Contributing
 
